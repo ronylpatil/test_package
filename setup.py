@@ -7,4 +7,9 @@ setup(
     description='creating dummy pyton package',
     author='ronilpatil',
     license='MIT',
+    package_dir={'': 'src'},
+    url=f"https://github.com/ronylpatil/test_package",
+    project_urls={
+        "Bug Tracker": f"https://github.com/ronylpatil/test_package/issues",
+    },
 )
