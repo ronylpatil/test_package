@@ -3,3 +3,4 @@ tox
 flake8
 black
 mypy
+-e . # install all local packages
