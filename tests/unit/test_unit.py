@@ -1,3 +1,5 @@
+# test each component individually
+
 import pytest
 from test_package import addition, subtraction, division
 from test_package import InvalidUserInput
@@ -32,3 +34,5 @@ def test_subtraction_failed(a, b):
 def test_division_failed(a, b) :
      with pytest.raises((InvalidUserInput)) :
           division(a, b)
+
+# cmd: pytest -v or pytest ./src/tests/test_unit.py
