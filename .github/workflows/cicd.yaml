@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths:
-      - ./src/**
-      - ./tests/**
-      - ./.github/**
+      - src/**
+      - tests/**
+      - .github/**
       - requirements.txt
       - requirements_dev.txt
     # paths-ignore:
