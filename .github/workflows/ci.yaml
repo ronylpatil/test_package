@@ -1,4 +1,4 @@
-name: py package
+name: ci pipeline
 
 on:
   push:
