@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="test_package",
+    name="test_package1",
     packages=find_packages(where="src"),
     version="0.0.1",
     description="creating dummy pyton package",
