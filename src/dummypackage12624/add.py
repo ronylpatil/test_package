@@ -1,5 +1,5 @@
 from ensure import ensure_annotations
-from test_package.custom_exception import InvalidUserInput
+from dummypackage12624.custom_exception import InvalidUserInput
 
 
 @ensure_annotations

@@ -1,8 +1,8 @@
 # test each component individually
 
 import pytest
-from test_package import addition, subtraction, division
-from test_package import InvalidUserInput
+from dummypackage12624 import addition, subtraction, division
+from dummypackage12624 import InvalidUserInput
 
 good_input_data = [(2, 1), (6, 2), (9, 7)]
 

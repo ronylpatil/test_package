@@ -1,8 +1,8 @@
 # test multiple components
 
 import pytest
-from test_package import addition, subtraction, division
-from test_package import InvalidUserInput
+from dummypackage12624 import addition, subtraction, division
+from dummypackage12624 import InvalidUserInput
 
 
 class TestPackage:
