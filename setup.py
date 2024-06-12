@@ -4,17 +4,18 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="test_package1",
-    packages=find_packages(where="src"),
+    name="test_package",
     version="0.0.1",
+    author="ronilpatil",
+    author_email="xyz@gmail.com",
     description="creating dummy pyton package",
     long_description=long_description,
     long_description_content="text/markdown",
-    author="ronilpatil",
-    license="MIT",
-    package_dir={"": "src"},
     url=f"https://github.com/ronylpatil/test_package",
     project_urls={
         "Bug Tracker": f"https://github.com/ronylpatil/test_package/issues",
     },
+    license="MIT",
+    package_dir={"": "src"},
+    packages=find_packages(where="src")
 )
