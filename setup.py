@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="test_package",
+    name="dummypackage12624",
     version="0.0.1",
     author="ronilpatil",
     author_email="xyz@gmail.com",
