@@ -5,6 +5,8 @@ setup(
     packages=find_packages(where='src'),
     version='0.0.1',
     description='creating dummy pyton package',
+    long_description=long_description,
+    long_description_content="text/markdown",
     author='ronilpatil',
     license='MIT',
     package_dir={'': 'src'},
