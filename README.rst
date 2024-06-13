@@ -1,13 +1,10 @@
 **Sample Package**
 
-
 .. image:: https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg
    :align: center
    :height: 200
-   :alt: logo
-|
-
-
+   :alt: logo  
+  
 .. image:: https://img.shields.io/pypi/v/dummypackage12624.svg
     :target: https://pypi.org/project/dummypackage12624/
 
@@ -19,7 +16,6 @@
 
 .. image:: https://github.com/ronylpatil/test_package/actions/workflows/cd.yml/badge.svg
     :target: https://github.com/ronylpatil/test_package/actions?query=workflow%3Atest
-|
 
 
 The ``package`` basic information.
