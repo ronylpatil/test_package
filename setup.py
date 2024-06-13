@@ -9,7 +9,7 @@ for i in ['requirements.txt', 'requirements_dev.txt'] :
 
 setup(
     name="dummypackage12624",
-    version="0.0.16",
+    version="0.0.18",
     author="ronilpatil",
     author_email="xyz@gmail.com",
     description=("Dummy python package"),
