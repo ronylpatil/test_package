@@ -3,6 +3,9 @@ from setuptools import find_packages, setup
 with open("README.rst", "r", encoding="utf-8") as f:
     long_description = f.read()
 
+with open("requirements.txt") as f:
+    requirements = [rq.replace("==", ">=") for rq in f.read().splitlines()]
+
 setup(
     name="dummypackage12624",
     version="0.0.16",
