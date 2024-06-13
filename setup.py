@@ -4,7 +4,7 @@ with open("README.rst", "r", encoding="utf-8") as f:
     long_description = f.read()
 setup(
     name="dummypackage12624",
-    version="0.0.20",
+    version="0.0.21",
     author="ronilpatil",
     author_email="xyz@gmail.com",
     description=("Dummy python package"),
@@ -13,7 +13,7 @@ setup(
     long_description_content="text/markdown",
     url=f"https://github.com/ronylpatil/test_package",
     classifiers=[
-        "Development Status ::  4 - Beta",
+        "Development Status :: 4 - Beta",
         "License :: MIT",
         "Operating System :: Windows 10 :: Linux :: MacOS",
         "Environment :: Console",
