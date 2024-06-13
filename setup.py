@@ -4,7 +4,7 @@ with open("README.rst", "r", encoding="utf-8") as f:
     long_description = f.read()
 setup(
     name="dummypackage12624",
-    version="0.0.26",
+    version="0.0.27",
     author="ronilpatil",
     author_email="xyz@gmail.com",
     description=("Dummy python package"),
@@ -15,7 +15,9 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Operating System :: MacOS",
+        "Operating System :: Microsoft :: Windows",
+        "Operating System :: POSIX :: Linux",
         "Environment :: Console",
         "Natural Language :: English",
         "Intended Audience :: Developers",
@@ -30,6 +32,7 @@ setup(
     ],
     python_requires=">=3.9",
     project_urls={
+        "Source": f"https://github.com/ronylpatil/test_package" ,
         "Bug Tracker": f"https://github.com/ronylpatil/test_package/issues",
     },
     package_dir={"": "src"},
