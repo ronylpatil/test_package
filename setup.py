@@ -5,17 +5,31 @@ with open("README.rst", "r", encoding="utf-8") as f:
 
 setup(
     name="dummypackage12624",
-    version="0.0.14",
+    version="0.0.16",
     author="ronilpatil",
     author_email="xyz@gmail.com",
-    description="creating dummy pyton package",
+    description=("Dummy python package"),
+    keywords=["package", "python", "pytest"],
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/ronylpatil/test_package",
+    classifiers=[
+        "Development Status ::  2 - Pre-Alpha",
+        "License :: MIT",
+        "Operating System :: Windows 10 :: Linux :: MacOS",
+        "Environment :: Console",
+        "Natural Language :: English",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Researchers/Data Analysts",
+        "Programming Language :: Python",
+        "Topic :: Scientific/Engineering",
+        "Topic :: Scientific/Engineering :: Information Analysis",
+    ],
+    python_requires=">=3.9",
     project_urls={
         "Bug Tracker": f"https://github.com/ronylpatil/test_package/issues",
     },
-    license="MIT",
     package_dir={"": "src"},
-    packages=find_packages(where="src")
+    packages=find_packages(where="src"),
+    install_requires=requirements    
 )
