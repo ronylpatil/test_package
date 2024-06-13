@@ -5,7 +5,7 @@ with open("README.rst", "r", encoding="utf-8") as f:
 
 setup(
     name="dummypackage12624",
-    version="0.0.1",
+    version="0.0.14",
     author="ronilpatil",
     author_email="xyz@gmail.com",
     description="creating dummy pyton package",
