@@ -4,7 +4,7 @@ with open("README.rst", "r", encoding="utf-8") as f:
     long_description = f.read()
 setup(
     name="dummypackage12624",
-    version="0.0.21",
+    version="0.0.22",
     author="ronilpatil",
     author_email="xyz@gmail.com",
     description=("Dummy python package"),
@@ -19,7 +19,7 @@ setup(
         "Environment :: Console",
         "Natural Language :: English",
         "Intended Audience :: Developers",
-        "Intended Audience :: Researchers/Data Analysts",
+        "Intended Audience :: Science/Research",
         "Programming Language :: Python",
         "Topic :: Scientific/Engineering",
         "Topic :: Scientific/Engineering :: Information Analysis",
