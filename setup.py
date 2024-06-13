@@ -2,14 +2,9 @@ from setuptools import find_packages, setup
 
 with open("README.rst", "r", encoding="utf-8") as f:
     long_description = f.read()
-
-for i in ['requirements.txt', 'requirements_dev.txt'] :
-    with open(i) as f:
-        requirements = [rq.replace("==", ">=") for rq in f.read().splitlines()]
-
 setup(
     name="dummypackage12624",
-    version="0.0.18",
+    version="0.0.19",
     author="ronilpatil",
     author_email="xyz@gmail.com",
     description=("Dummy python package"),
@@ -34,6 +29,5 @@ setup(
         "Bug Tracker": f"https://github.com/ronylpatil/test_package/issues",
     },
     package_dir={"": "src"},
-    packages=find_packages(where="src"),
-    install_requires=requirements    
+    packages=find_packages(where="src"),  
 )
