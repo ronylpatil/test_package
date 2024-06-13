@@ -1,4 +1,3 @@
-**Sample Package**
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg
    :align: center
