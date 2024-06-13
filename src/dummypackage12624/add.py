@@ -21,3 +21,5 @@ def division(x: int, y: int) -> float:
         return x / y
     except Exception:
         raise InvalidUserInput("Invalid user input")
+
+# something ....
