@@ -15,9 +15,9 @@ def subtraction(x: int, y: int) -> int:
         return x - y
 
 
-@ensure_annotations
-def division(x: int, y: int) -> float:
-    try:
-        return x / y
-    except Exception:
-        raise InvalidUserInput("Invalid user input")
+# @ensure_annotations
+# def division(x: int, y: int) -> float:
+#     try:
+#         return x / y
+#     except Exception:
+#         raise InvalidUserInput("Invalid user input")
