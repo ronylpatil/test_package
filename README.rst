@@ -5,10 +5,7 @@
    :align: center
    :height: 200
    :alt: logo
-
-
-______
-
+|
 
 
 .. image:: https://img.shields.io/pypi/v/dummypackage12624.svg
@@ -22,7 +19,8 @@ ______
 
 .. image:: https://github.com/ronylpatil/test_package/actions/workflows/cd.yml/badge.svg
     :target: https://github.com/ronylpatil/test_package/actions?query=workflow%3Atest
-..
+|
+
 
 The ``package`` basic information.
 
