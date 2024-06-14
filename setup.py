@@ -34,6 +34,7 @@ setup(
     project_urls={
         "Source": f"https://github.com/ronylpatil/test_package" ,
         "Bug Tracker": f"https://github.com/ronylpatil/test_package/issues",
+        "Changelog": f"https://github.com/ronylpatil/test_package/releases",
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),  
