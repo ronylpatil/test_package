@@ -46,6 +46,28 @@ Features
 - Word Cloud
 
 
+.. list-table::
+    :widths: 33 33 33
+    :header-rows: 0
+
+    * - .. image:: doc/en/active_users.png
+          :width: 330px
+          :height: 190px
+      - .. image:: doc/en/active_year.png
+          :width: 330px
+          :height: 190px
+      - .. image:: doc/en/active_month.png
+          :width: 330px
+          :height: 190px
+    * - .. image:: doc/en/active_day.png
+          :width: 330px
+          :height: 190px
+      - .. image:: doc/en/wordcloud.png
+          :width: 330px
+          :height: 190px
+      -
+
+
 Documentation
 -------------
 
