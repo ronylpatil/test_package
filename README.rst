@@ -51,20 +51,20 @@ Features
     :header-rows: 0
 
     * - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_users.png
-          :width: 100px
-          :height: 100px
+          :width: 330px
+          :height: 190px
       - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_year.png
-          :width: 100px
-          :height: 100px
+          :width: 330px
+          :height: 190px
       - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_month.png
-          :width: 100px
-          :height: 100px
+          :width: 330px
+          :height: 190px
     * - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_day.png
-          :width: 100px
-          :height: 100px
+          :width: 330px
+          :height: 190px
       - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/wordcloud.png
-          :width: 100px
-          :height: 100px
+          :width: 330px
+          :height: 190px
       -
 
 
