@@ -91,4 +91,4 @@ License
 Distributed under the terms of the `MIT`_ license.
 
 
-.. _`MIT`: https://github.com/ronylpatil/chatInsights/LICENSE
+.. _`MIT`: https://raw.githubusercontent.com/ronylpatil/chatInsights/main/LICENSE
