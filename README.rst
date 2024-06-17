@@ -69,25 +69,21 @@ Features
 
 Documentation
 -------------
-
 Updated soon.
 
 
 Bugs/Requests
 -------------
-
 Please use the `GitHub issue tracker <https://github.com/ronylpatil/chatInsights/issues>`_ to submit bugs or request features.
 
 
 Changelog
 ---------
-
 Consult the `Changelog <https://github.com/ronylpatil/chatInsights/releases>`__ page for fixes and enhancements of each version.
 
 
 License
 -------
-
 Distributed under the terms of the `MIT`_ license.
 
 
