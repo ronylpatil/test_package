@@ -1,21 +1,21 @@
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg
-    :align: center
-    :height: 200
-    :alt: logo  
+   :align: center
+   :height: 200
+   :alt: logo  
 
 
 .. image:: https://img.shields.io/pypi/v/dummypackage12624.svg
-    :target: https://pypi.org/project/dummypackage12624/
+   :target: https://pypi.org/project/dummypackage12624/
 
 .. image:: https://img.shields.io/pypi/pyversions/dummypackage12624.svg
-    :target: https://pypi.org/project/dummypackage12624/
+   :target: https://pypi.org/project/dummypackage12624/
 
 .. image:: https://github.com/ronylpatil/dummypackage12624/actions/workflows/ci_pipeline.yaml/badge.svg
-    :target: https://github.com/ronylpatil/dummypackage12624/actions?query=workflow%3Atest
+   :target: https://github.com/ronylpatil/dummypackage12624/actions?query=workflow%3Atest
 
 .. image:: https://github.com/ronylpatil/dummypackage12624/actions/workflows/cd_pipeline.yaml/badge.svg
-    :target: https://github.com/ronylpatil/dummypackage12624/actions?query=workflow%3Atest
+   :target: https://github.com/ronylpatil/dummypackage12624/actions?query=workflow%3Atest
 
 
 The ``dummypackage12624`` package make it easy to perform whatsApp group chat analysis using python.
@@ -38,25 +38,25 @@ A simple code example:
 
 Output:
 .. list-table::
-    :widths: 33 33 33
-    :header-rows: 0
+   :widths: 33 33 33
+   :header-rows: 0
 
-    * - .. image:: doc/en/active_users.png
-          :width: 330px
-          :height: 190px
-      - .. image:: doc/en/active_year.png
-          :width: 330px
-          :height: 190px
-      - .. image:: doc/en/active_month.png
-          :width: 330px
-          :height: 190px
-    * - .. image:: doc/en/active_day.png
-          :width: 330px
-          :height: 190px
-      - .. image:: doc/en/wordcloud.png
-          :width: 330px
-          :height: 190px
-      - 
+   * - .. image:: doc/en/active_users.png
+         :width: 330px
+         :height: 190px
+     - .. image:: doc/en/active_year.png
+         :width: 330px
+         :height: 190px
+     - .. image:: doc/en/active_month.png
+         :width: 330px
+         :height: 190px
+   * - .. image:: doc/en/active_day.png
+         :width: 330px
+         :height: 190px
+     - .. image:: doc/en/wordcloud.png
+         :width: 330px
+         :height: 190px
+     - 
 
 
 
