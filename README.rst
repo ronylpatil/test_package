@@ -1,61 +1,97 @@
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg
-   :align: center
-   :height: 200
-   :alt: logo  
-  
+    :align: center
+    :height: 200
+    :alt: logo  
+
+
 .. image:: https://img.shields.io/pypi/v/dummypackage12624.svg
     :target: https://pypi.org/project/dummypackage12624/
 
 .. image:: https://img.shields.io/pypi/pyversions/dummypackage12624.svg
     :target: https://pypi.org/project/dummypackage12624/
 
-.. image:: https://github.com/ronylpatil/test_package/actions/workflows/ci.yaml/badge.svg
-    :target: https://github.com/ronylpatil/test_package/actions?query=workflow%3Atest
+.. image:: https://github.com/ronylpatil/dummypackage12624/actions/workflows/ci_pipeline.yaml/badge.svg
+    :target: https://github.com/ronylpatil/dummypackage12624/actions?query=workflow%3Atest
 
-.. image:: https://github.com/ronylpatil/test_package/actions/workflows/cd.yml/badge.svg
-    :target: https://github.com/ronylpatil/test_package/actions?query=workflow%3Atest
+.. image:: https://github.com/ronylpatil/dummypackage12624/actions/workflows/cd_pipeline.yaml/badge.svg
+    :target: https://github.com/ronylpatil/dummypackage12624/actions?query=workflow%3Atest
 
 
-The ``package`` basic information.
+The ``dummypackage12624`` package make it easy to perform whatsApp group chat analysis using python.
 
 A simple code example:
 
 .. code-block:: python
 
-    # content of test_sample.py
-    # code should be automatically fetched
+       # import chatInsights class
+       from chatInsights import ChatInsights
+       
+       # create obj of ChatInsights class
+       obj = ChatInsights(r'E:/chat.txt')
+       obj.active_users()
+       obj.active_year()
+       obj.active_month()
+       obj.active_day()
+       obj.word_cloud()
 
-To execute it::
 
-   # execution code here
-   
-   # code ends here
+Output:
+.. list-table::
+    :widths: 33 33 33
+    :header-rows: 0
 
-Add basic info here.
+    * - .. image:: doc/en/active_users.png
+          :width: 330px
+          :height: 190px
+      - .. image:: doc/en/active_year.png
+          :width: 330px
+          :height: 190px
+      - .. image:: doc/en/active_month.png
+          :width: 330px
+          :height: 190px
+    * - .. image:: doc/en/active_day.png
+          :width: 330px
+          :height: 190px
+      - .. image:: doc/en/wordcloud.png
+          :width: 330px
+          :height: 190px
+      - 
+
+
 
 
 Features
 --------
-- Feature_1
-- Feature_2
-- Feature_3
-- Feature_3
+- User activity stats
+- Weekly message stats
+- Monthly message stats
+- Yearly message stats
+- Word Cloud
+
 
 Documentation
 -------------
-For full documentation, including installation, tutorials and PDF documents, please see https://docs.pytest.org/en/stable/.
+
+Updated soon.
+
 
 Bugs/Requests
 -------------
-Please use the `GitHub issue tracker <https://github.com/pytest-dev/pytest/issues>`_ to submit bugs or request features.
+
+Please use the `GitHub issue tracker <https://github.com/ronylpatil/dummypackage12624/issues>`_ to submit bugs or request features.
+
 
 Changelog
 ---------
-Consult the `Changelog <https://docs.pytest.org/en/stable/changelog.html>`__ page for fixes and enhancements of each version.
+
+Consult the `Changelog <add changelog link here>`__ page for fixes and enhancements of each version.
+
 
 License
 -------
+
 Distributed under the terms of the `MIT`_ license.
 
-.. _`MIT`: https://github.com/ronylpatil/test_package/LICENSE
+
+.. _`MIT`: https://github.com/ronylpatil/dummypackage12624/LICENSE
