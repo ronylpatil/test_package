@@ -51,20 +51,20 @@ Features
     :header-rows: 0
 
     * - .. image:: research/active_users.png
-          :width: 330px
-          :height: 190px
+          :width: 100px
+          :height: 100px
       - .. image:: research/active_year.png
-          :width: 330px
-          :height: 190px
+          :width: 100px
+          :height: 100px
       - .. image:: research/active_month.png
-          :width: 330px
-          :height: 190px
+          :width: 100px
+          :height: 100px
     * - .. image:: research/active_day.png
-          :width: 330px
-          :height: 190px
+          :width: 100px
+          :height: 100px
       - .. image:: research/wordcloud.png
-          :width: 330px
-          :height: 190px
+          :width: 100px
+          :height: 100px
       -
 
 
