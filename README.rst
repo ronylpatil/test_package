@@ -18,7 +18,7 @@
     :target: https://github.com/ronylpatil/chatInsights/actions?query=workflow%3Atest
 
 
-The ``dummypackage12624`` package make it easy to perform whatsApp group chat analysis using python.
+The ``chatInsights`` package make it easy to perform whatsApp group chat analysis using python.
 
 A simple code example:
 
@@ -36,6 +36,27 @@ A simple code example:
        obj.word_cloud()
 
 
+.. list-table::
+    :widths: 33 33 33
+    :header-rows: 0
+
+    * - .. image:: https://raw.githubusercontent.com/ronylpatil/chatInsights/main/doc/en/active_users.png
+          :width: 330px
+          :height: 190px
+      - .. image:: https://raw.githubusercontent.com/ronylpatil/chatInsights/main/doc/en/active_year.png
+          :width: 330px
+          :height: 190px
+      - .. image:: https://raw.githubusercontent.com/ronylpatil/chatInsights/main/doc/en/active_month.png
+          :width: 330px
+          :height: 190px
+    * - .. image:: https://raw.githubusercontent.com/ronylpatil/chatInsights/main/doc/en/active_day.png
+          :width: 330px
+          :height: 190px
+      - .. image:: https://raw.githubusercontent.com/ronylpatil/chatInsights/main/doc/en/wordcloud.png
+          :width: 330px
+          :height: 190px
+      -
+
 
 Features
 --------
@@ -44,28 +65,6 @@ Features
 - Monthly message stats
 - Yearly message stats
 - Word Cloud
-
-
-.. list-table::
-    :widths: 33 33 33
-    :header-rows: 0
-
-    * - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_users.png
-          :width: 330px
-          :height: 190px
-      - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_year.png
-          :width: 330px
-          :height: 190px
-      - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_month.png
-          :width: 330px
-          :height: 190px
-    * - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/active_day.png
-          :width: 330px
-          :height: 190px
-      - .. image:: https://raw.githubusercontent.com/ronylpatil/test_package/main/research/wordcloud.png
-          :width: 330px
-          :height: 190px
-      -
 
 
 Documentation
@@ -77,13 +76,13 @@ Updated soon.
 Bugs/Requests
 -------------
 
-Please use the `GitHub issue tracker <https://github.com/ronylpatil/dummypackage12624/issues>`_ to submit bugs or request features.
+Please use the `GitHub issue tracker <https://github.com/ronylpatil/chatInsights/issues>`_ to submit bugs or request features.
 
 
 Changelog
 ---------
 
-Consult the `Changelog <add changelog link here>`__ page for fixes and enhancements of each version.
+Consult the `Changelog <https://github.com/ronylpatil/chatInsights/releases>`__ page for fixes and enhancements of each version.
 
 
 License
@@ -92,4 +91,4 @@ License
 Distributed under the terms of the `MIT`_ license.
 
 
-.. _`MIT`: https://github.com/ronylpatil/dummypackage12624/LICENSE
+.. _`MIT`: https://github.com/ronylpatil/chatInsights/LICENSE
